@@ -11,6 +11,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 public class HttpResponse {
+	private int a = 1344;
 	private Socket socket;
 	private OutputStream os;
 	private File file;
