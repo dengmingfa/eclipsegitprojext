@@ -11,7 +11,7 @@ public class HttpContext {
 		initStatusCode();
 		initMimeMapping();
 	}
-	
+	private int a;
 	private static void initStatusCode() {
 		statusCode.put(200, "OK");
 		statusCode.put(201, "Created");
